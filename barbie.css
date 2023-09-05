@@ -1,0 +1,83 @@
+.full {
+    display: flex;
+    background: rgb(184, 32, 113);
+
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    border: 70px solid black;
+}
+
+body {
+    background: rgb(184, 32, 113);
+
+}
+
+.full img {
+    width: 200px;
+    margin: 40px;
+    height: 230px;
+}
+
+.kiss {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.kiss img {
+    width: 1500px;
+    height: 1000px;
+}
+
+#btn {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 270px;
+    transition: .5s;
+}
+
+#btn:hover {
+    background-color: rgb(87, 5, 49);
+    cursor: pointer;
+}
+
+.overlayKen {
+    position:absolute;
+    left: 32.80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.overlayBarbie {
+    position:absolute;
+    left: 66%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.yapanlar {
+    font-size: 40px;
+    margin: 10px;
+    background-color: #000;
+    display: none;
+    color: rgb(184, 32, 113);
+    padding: 10px;
+}
